@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "iconLibrary": "lucide",
+  "env": {
+    "KV_URL": "rediss://default:AVApAAIjcDFiYzM3MmY4NTU5NjU0ODk2OTdjNzg3OTg4MjZiZjcyN3AxMA@just-dove-20521.upstash.io:6379",
+    "KV_REST_API_URL": "https://just-dove-20521.upstash.io",
+    "KV_REST_API_TOKEN": "AVApAAIjcDFiYzM3MmY4NTU5NjU0ODk2OTdjNzg3OTg4MjZiZjcyN3AxMA",
+    "KV_REST_API_READ_ONLY_TOKEN": "AlApAAIgcDGU4vaKxoRRFoX35RODxClvQpZCgVRLem7M60koX5zgSw"
+  }
+}
